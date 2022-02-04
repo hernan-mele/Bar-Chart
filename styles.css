@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #3AAfA9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+svg{
+    background-color: #def2f1;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+}
+
+.bar{
+    background-color: #2b7a78;
+    border-color: #2b7a78;
+    fill: #2b7a78;
+}
+
+.bar:hover{
+    fill: #17252a;
+}
+
+g{
+    color: #17252a;
+}
+
+#tootip{
+    margin-top: 10px;
+    color: #f3ffff;
+    font-size: 28px;
+}
+
+#title{
+    font-size: 30px;
+    fill: #17252a;
+}
